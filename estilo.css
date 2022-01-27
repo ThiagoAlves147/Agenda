@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(247, 247, 238) !important;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.container label {
+    padding-right: 8%;
+}
+
+.container input{
+    width: 100%;
+}
+
+.container textarea {
+    resize: none;
+    width: 183%;
+    height: 100px;
+}
+
+.compromisso {
+    height: 100px;
+
+}
+
+.fa-edit {
+    color: blue;
+}
+
+.fa-edit:hover {
+    font-weight: bold;
+}
+
+.fa-trash-alt {
+    color: red;
+}
+
+.fa-trash-alt:hover {
+    font-weight: bold;
+}
+
+
+
+table {
+    text-align: center;
+    background-color: rgb(229, 229, 247);
+    table-layout: fixed;
+    word-break: break-all;
+}
+
+thead th {
+    font-size: 25px;
+}
+
+a {
+    padding: 10%;
+}
+
+nav {
+    text-align: center ;
+    margin-top: 2%;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    color: brown;
+}
+
