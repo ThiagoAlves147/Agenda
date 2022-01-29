@@ -148,12 +148,15 @@
                     <form method="post" action="verificarInserir.php">
                         <div class="modal-body">
                             <?php
-                                $min = date('d') + 1;
-                                $max = date('d') + 7;
+                                $min = date('d', time() + 86400);
+                                $max = date('d', time() + 604800);
+                                $monthMin = date('m');
+                                $monthMax = date('m', time() + 604800);
+                                $year = date('Y');
                             ?>
                                 <label>
                                     Data:
-                                    <input type="date" name="dia" min="2021-11-<?php echo $min ?>" max="2021-11-<?php echo $max ?>">
+                                    <input type="date" name="dia" min="<?php echo $year."-".$monthMin."-".$min ?>" max="<?php echo $year."-".$monthMax."-".$max ?>">
                                 </label>
                                 <label>
                                     Hora:
@@ -175,7 +178,6 @@
         </div>
 
     </div>
-    
     
 
     <script type="text/javascript" src="jquery.js"></script>
