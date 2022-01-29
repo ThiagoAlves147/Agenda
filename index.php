@@ -40,13 +40,13 @@
         <thead>
             <tr>
             <th scope="col"><img src="imagens/imagem2S.png" width="80px"/><br></th>
-            <th scope="col">Day<br><?php echo date('d') + 1; ?></th>
-            <th scope="col">Day<br><?php echo date('d') + 2; ?></th>
-            <th scope="col">Day<br><?php echo date('d') + 3; ?></th>
-            <th scope="col">Day<br><?php echo date('d') + 4; ?></th>
-            <th scope="col">Day<br><?php echo date('d') + 5; ?></th>
-            <th scope="col">Day<br><?php echo date('d') + 6; ?></th>
-            <th scope="col">Day<br><?php echo date('d') + 7; ?></th>
+            <th scope="col">Day<br><?php echo date('d', time() + 86400 * 1); ?></th>
+            <th scope="col">Day<br><?php echo date('d', time() + 86400 * 2); ?></th>
+            <th scope="col">Day<br><?php echo date('d', time() + 86400 * 3); ?></th>
+            <th scope="col">Day<br><?php echo date('d', time() + 86400 * 4); ?></th>
+            <th scope="col">Day<br><?php echo date('d', time() + 86400 * 5); ?></th>
+            <th scope="col">Day<br><?php echo date('d', time() + 86400 * 6); ?></th>
+            <th scope="col">Day<br><?php echo date('d', time() + 86400 * 7); ?></th>
             </tr>
         </thead>
         <tbody>
