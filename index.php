@@ -138,7 +138,7 @@
         <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#janela">Agendar</button>
 
         <div class="modal fade" id="janela">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h3 style="font-weight: bold;">Agendar</h3>
